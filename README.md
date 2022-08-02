@@ -16,3 +16,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 #### Hot keys
 - region comment/tag => Ctrl+Alt+T
+
+#### Git
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary), [described here](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type)
