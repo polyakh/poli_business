@@ -1,4 +1,10 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm run precommit
+echo '🏗️👷 Styling, testing and building your project before committing'
+
+npm run precommit # You can separate these things for example: npm run <script> || ( echo '🤢🤮🤢🤮 Its F**KING RAW - Your styling looks disgusting. 🤢🤮🤢🤮 Prettier Check Failed. Run npm run format, add changes and try commit again.'; false; )
+
+
+# If everything passes... Now we can commit
+echo '✅✅✅✅ You win this time... I am committing this now. ✅✅✅✅'
