@@ -9,4 +9,10 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  options: {
+    storySort: {
+      // https://storybook.js.org/docs/react/writing-stories/naming-components-and-hierarchy#sorting-stories
+      order: ['Pages', 'Components'],
+    },
+  },
 };

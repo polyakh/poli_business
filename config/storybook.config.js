@@ -15,3 +15,9 @@ export const initImg = () =>
       />
     ),
   });
+
+const _separator = "/";
+const common = "common";
+export const componentsName = {
+    [common]: `${_separator}${common}`
+}
