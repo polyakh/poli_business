@@ -1,6 +1,4 @@
-import { initImg } from '../config'
-
-
+import { initImg } from "../config";
 
 initImg();
 export const parameters = {
@@ -11,4 +9,4 @@ export const parameters = {
       date: /Date$/,
     },
   },
-}
+};
