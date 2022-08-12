@@ -9,15 +9,15 @@ const PAGES = "pages";
 const UTILS = "utils";
 
 module.exports = {
-    paths: {
-        COMPONENTS,
-        STYLES,
-        DEFINITIONS,
-        HOOKS,
-        LIBS,
-        TYPES,
-        PAGES,
-        UTILS
-    },
-    PATH_PREFIX
+  paths: {
+    COMPONENTS,
+    STYLES,
+    DEFINITIONS,
+    HOOKS,
+    LIBS,
+    TYPES,
+    PAGES,
+    UTILS,
+  },
+  PATH_PREFIX,
 };

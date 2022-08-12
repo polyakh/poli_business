@@ -1,5 +1,5 @@
-const { resolve } = require('path');
-const { PATH_PREFIX, paths } = require('../config/consts');
+const { resolve } = require("path");
+const { PATH_PREFIX, paths } = require("../config/consts");
 
 module.exports = {
   stories: ["../src/**/*.stories.@(js|jsx|ts|tsx)"],
@@ -16,8 +16,8 @@ module.exports = {
   webpackFinal: async (config) => {
     config.resolve.alias = {
       ...config.resolve?.alias,
-      [`${PATH_PREFIX}${paths.COMPONENTS}`]: resolve(__dirname, '../src/components/'),
-      '~config': resolve(__dirname, '../config/'),
+      [`${PATH_PREFIX}${paths.COMPONENTS}`]: resolve(__dirname, "../src/components/"),
+      "~config": resolve(__dirname, "../config/"),
     };
     return config;
   },

@@ -18,8 +18,8 @@
     "paths": {
       "~components": ["src/components"],
       "~components/*": ["src/components/*"],
-      "~config": ["./config"],
-    },
+      "~config": ["./config"]
+    }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
