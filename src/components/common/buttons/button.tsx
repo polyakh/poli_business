@@ -5,7 +5,8 @@ interface ButtonOwnProps extends ComponentPropsWithoutRef<"button"> {
 }
 const COMPONENT_KEY = "Button";
 
-const Button = ({ isDisabled }: ButtonOwnProps) => <button disabled={isDisabled}>Button</button>;
+const Button = ({ isDisabled, type }: ButtonOwnProps) =>
+    <button type={type} disabled={isDisabled}>Button</button>;
 
 export { COMPONENT_KEY };
 export type { ButtonOwnProps };

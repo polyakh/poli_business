@@ -2,7 +2,7 @@
 import type { NextPage } from "next";
 import { DefaultSeo } from "next-seo";
 //endregion
-import { SEO } from "../../config";
+import { SEO } from "~config";
 
 const Home: NextPage = () => {
   return (

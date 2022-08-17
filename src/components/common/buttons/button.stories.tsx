@@ -2,11 +2,7 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 //endregion
 
-import {
-  Button,
-  ButtonOwnProps,
-  mockButtonProps,
-} from "~components/common/buttons";
+import { Button, ButtonOwnProps, mockButtonProps } from "~components/common/buttons";
 
 export default {
   title: "components/common/buttons",

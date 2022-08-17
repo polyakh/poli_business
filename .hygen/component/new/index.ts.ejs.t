@@ -1,9 +1,7 @@
 ---
 to: <%= absPath %>/index.ts
 ---
-<%
- name = h.inflection.camelize(componentName)
-%>
+<% name = h.inflection.camelize(componentName) %>
 export {
   default as <%= name %>,
   type <%= name %>OwnProps,
