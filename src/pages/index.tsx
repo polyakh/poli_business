@@ -1,10 +1,14 @@
 //region Global Imports
-import type { NextPage } from "next";
 import { DefaultSeo } from "next-seo";
 //endregion
-import { SEO } from "~config";
 
-const Home: NextPage = () => {
+//region Local Imports
+import { SEO } from "~config";
+import { PrimaryLayout } from "~components";
+import { NextPageWithLayout } from "./page";
+//endregion
+
+const HomePage: NextPageWithLayout = () => {
   return (
     <div className="container">
       <DefaultSeo {...SEO} />
@@ -13,4 +17,6 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+HomePage.getLayout = (page) => <PrimaryLayout>{page}</PrimaryLayout>;
+
+export default HomePage;

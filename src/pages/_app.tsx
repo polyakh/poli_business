@@ -2,10 +2,19 @@
 import type { AppProps } from "next/app";
 //endregion
 
+//region Local Imports
 import "./globals.css";
+import { NextPageWithLayout } from "./page";
+//endregion
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+interface AppOwnProps extends AppProps {
+  Component: NextPageWithLayout;
 }
 
-export default MyApp;
+function App({ Component, pageProps }: AppOwnProps) {
+  const getLayout = Component.getLayout || ((page) => page);
+
+  return getLayout(<Component {...pageProps} />);
+}
+
+export default App;

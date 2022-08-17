@@ -1,4 +1,3 @@
-
 export {
   default as Header,
   type HeaderOwnProps,

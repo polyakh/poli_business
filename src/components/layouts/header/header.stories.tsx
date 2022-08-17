@@ -2,11 +2,7 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 //endregion
 
-import {
-  Header,
-  HeaderOwnProps,
-  mockHeaderProps,
-} from "./";
+import { Header, HeaderOwnProps, mockHeaderProps } from "./";
 
 export default {
   title: "components/Header",

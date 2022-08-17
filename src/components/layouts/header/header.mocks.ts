@@ -1,4 +1,3 @@
-
 import { HeaderOwnProps } from "./";
 
 const base: HeaderOwnProps = {};

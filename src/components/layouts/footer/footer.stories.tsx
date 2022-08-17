@@ -2,11 +2,7 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 //endregion
 
-import {
-  Footer,
-  FooterOwnProps,
-  mockFooterProps,
-} from "./";
+import { Footer, FooterOwnProps, mockFooterProps } from "./";
 
 export default {
   title: "components/Footer",

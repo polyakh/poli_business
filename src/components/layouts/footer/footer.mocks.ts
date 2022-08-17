@@ -1,4 +1,3 @@
-
 import { FooterOwnProps } from "./";
 
 const base: FooterOwnProps = {};

@@ -18,9 +18,9 @@
     "paths": {
       "~components": ["src/components"],
       "~components/*": ["src/components/*"],
-      "~page": ["src/page"],
       "~types": ["src/types"],
       "~types/*": ["src/types/"],
+      "~page": ["src/page"],
       "~page/*": ["src/page/*"],
       "~config": ["./config"]
     }
