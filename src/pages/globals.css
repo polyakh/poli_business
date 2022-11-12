@@ -1,15 +1,2 @@
-/*https://github.com/theodorusclarence/ts-nextjs-tailwind-starter/blob/main/src/styles/globals.css*/
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
-  --tw-color-primary-50: 240 249 255;
-  --color-primary-50: rgb(var(--tw-color-primary-50)); /* #f0f9ff */
-}
-
-@layer base {
-  .h1 {
-    @apply font-primary text-2xl font-bold md:text-4xl;
-  }
 }

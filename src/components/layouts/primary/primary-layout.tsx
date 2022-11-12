@@ -11,7 +11,7 @@ interface PrimaryLayoutOwnProps extends PropsWithChildren, WithAsProps {}
 const COMPONENT_KEY = "PrimaryLayout";
 
 const PrimaryLayout = ({ children, as: Component = "div" }: PrimaryLayoutOwnProps) => (
-  <Component>
+  <Component className="flex flex-col h-screen justify-between">
     <Header />
     {children}
     <Footer />

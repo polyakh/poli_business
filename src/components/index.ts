@@ -1,4 +1,4 @@
-export { Button, type ButtonOwnProps } from "./common";
+export { Button, type ButtonOwnProps, Link, type LinkOwnProps } from "./common";
 export {
   PrimaryLayout,
   type PrimaryLayoutOwnProps,
